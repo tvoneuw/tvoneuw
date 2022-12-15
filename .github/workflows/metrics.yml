@@ -141,3 +141,17 @@ jobs:
           template: classic
           base: repositories
           config_timezone: ${{ secrets.USER_TIMEZONE }}
+          
+  chess:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: chess.svg
+          token: NOT_NEEDED
+          base: ""
+          plugin_chess: yes
+          plugin_chess_token: ${{ secrets.CHESS_TOKEN }}
+          plugin_chess_platform: lichess.org
+          plugin_chess_user: jrmdel
+
