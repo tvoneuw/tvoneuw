@@ -23,3 +23,6 @@
 <a href="https://github.com/tvoneuw">
     <img align="center" width="49%" src="./achievements.svg" />
 </a>
+<a href="https://github.com/tvoneuw">
+    <img align="center" width="49%" src="./chess.svg" />
+</a>
